@@ -1,0 +1,95 @@
+body{
+    background: #000000;
+    height: 100%;
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.login-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: #1D1D25;
+    height: 90%;
+    width: 50%;
+    margin: 2.5% 25%;
+    border-radius: 39px ;
+}
+
+.login-container{
+    display: inline-block;
+}
+
+.login-header{
+    width: 70%;
+    margin-left: 10%;
+}
+
+.login-header h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.login-form-input{
+    width: 80%;
+    margin: 30px 10%;
+    border-radius: 20px;
+    background: #FFFFFF;
+    padding:10px 0 10px 0;
+}
+
+.login-form-input input{
+    display: block;
+    width: 80%;
+    height: 50px;
+    margin: auto 10%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #000000;
+}
+
+
+#hr-line{
+    color:#DADADA;
+}
+
+.login-btn {
+    background-color: #FAE02F;
+    width: 80%;
+    height: 60px;
+    margin: auto 10%;
+    border-radius: 20px;
+    border: none;
+}
+
+#create-account{
+    text-align: center;
+    font-weight: 400;
+}
+.social-login{
+    margin: 100px 0 50px;
+}
+.social-login-icons{
+    width: 40%;
+    margin: auto 30% ;
+}
+
+.social-login p{
+    text-align: center;
+}
+
+.social-login span{
+    margin-right: 5px;
+}

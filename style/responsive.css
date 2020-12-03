@@ -1,0 +1,44 @@
+ 
+ /* Mobile Screens */
+@media (max-width: 480px){
+    .login-section{
+        position: fixed;
+        width: 80%;
+        margin: 2.5% 10%;
+        /* padding: 10px 0; */
+    }
+    .login-header{
+        width: 70%;
+        padding-left:20px;
+    }
+    .login-header h1{
+        font-size: 30px;
+    }
+    .login-header p{
+        font-size: 14px;
+    }
+    
+    .login-form-input input{
+        display: block;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .login-btn {
+        height: 50px;
+    }
+
+    .social-login{
+        margin: 50px 0 20px;
+    }
+
+    .social-login-icons{
+        width: 100%;
+        margin: auto 15%;
+    }
+
+    .social-login span{
+        margin-right: 5px;
+    }
+
+}
