@@ -115,4 +115,7 @@ p{
     width: 100%;
     justify-content: center; 
 }
+.social-login-icons span{
+    margin-left: 10px;
+}
 
