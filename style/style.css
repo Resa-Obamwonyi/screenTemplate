@@ -4,7 +4,15 @@ body{
     width: 100%;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+a{
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
 }
@@ -59,6 +67,21 @@ p{
     font-size: 16px;
     color: #000000;
 }
+.forgot-flex{
+    display: flex;
+    align-items: center;
+}
+
+.forgot-flex input{
+    flex-basis: 80%;
+}
+
+.forgot-flex a{
+    flex-basis: 20%;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+}
 
 
 #hr-line{
@@ -77,19 +100,19 @@ p{
 #create-account{
     text-align: center;
     font-weight: 400;
-}
-.social-login{
-    margin: 100px 0 50px;
-}
-.social-login-icons{
-    width: 40%;
-    margin: auto 30% ;
+    padding-top: 50px;
 }
 
+.social-login{
+    margin: 20px 0 10px;
+}
 .social-login p{
     text-align: center;
 }
 
-.social-login span{
-    margin-right: 5px;
+.social-login-icons{
+    display: flex;
+    width: 100%;
+    justify-content: center; 
 }
+
